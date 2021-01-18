@@ -25,9 +25,9 @@ public class Board() {
     
     // Printing the Board 
     void printBoard(){
-        for(int i=0,j=0; i<=this.boardSize; i++){
-            for(; j<i+this.boardSize; j++){
-                System.out.print("| "+this.boardList[j]+" ");
+        for(int i=1,j=1; i<=this.boardSize; i++){
+            for(; j<i*this.boardSize; j++){
+                System.out.print("| "+this.boardList[j-1]+" ");
             }
             System.out.print(" |");
             System.out.println("");
