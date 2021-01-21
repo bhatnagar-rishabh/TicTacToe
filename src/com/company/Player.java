@@ -2,9 +2,9 @@ package com.company;
 
 public class Player {
     private String playerName;
-    private char choice;
+    private Orb choice;
 
-    public Player(String playerName, char choice) {
+    public Player(String playerName, Orb choice) {
         this.playerName = playerName;
         this.choice = choice;
     }
@@ -13,7 +13,7 @@ public class Player {
         return playerName;
     }
 
-    public char getChoice() {
+    public Orb getChoice() {
         return choice;
     }
 
@@ -21,7 +21,7 @@ public class Player {
         this.playerName = playerName;
     }
 
-    public void setChoice(char choice) {
+    public void setChoice(Orb choice) {
         this.choice = choice;
     }
 }
