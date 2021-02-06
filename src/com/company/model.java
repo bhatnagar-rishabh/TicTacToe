@@ -1,8 +1,5 @@
 package com.company;
 
-
-import javafx.scene.paint.Stop;
-
 class Orb {
     private String iVal;
 
@@ -29,10 +26,6 @@ class Orb {
     static Orb none(String i) {
         return new Orb(i);
     }
-}
-
-interface IGame {
-    Orb isWinner();
 }
 
 class StopTheGameException extends Exception {
